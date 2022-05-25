@@ -16,6 +16,7 @@ displayMiss: function(location) {//this displays a msg whenever the player misse
 	}
 };
 
+//Model component of the MVC paradigm
 var model = {
 	shipEval: 0, //shipEval is a variable to keep track of the index of the three ships being currently evaluated
 	numShips: 3, //idea here is to prevent hardcoding of the number of ships
